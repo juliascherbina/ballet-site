@@ -1,9 +1,44 @@
 body {
     max-width: 100vw;
     max-height: 100vh;
-    background-image: url(./Photo/photo_2024-02-22_14-59-32.jpg);
-    background-size: cover; 
-     background-position: center;
+    background: rgb(0, 0, 0);
+    color: white;
+}
 
-
+.header {
+    text-align: center;
+    margin: 10px;
+}
+.header-text {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header-img {
+    width: 300px;
+    padding: 10px;
+    
+}
+.header-img2 {
+    width: 50px;
+}
+.main {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    line-height: 3;
+}
+.main-select {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+}
+.main-item {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
 }
